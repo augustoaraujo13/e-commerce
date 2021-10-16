@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Meu app
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -47,8 +49,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #Meu app
-    'users.apps.UsersConfig',
 ]
 
 ROOT_URLCONF = 'ecommerce.urls'
@@ -125,6 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# User Model
 # User Model
 
 AUTH_USER_MODEL = "users.User"
