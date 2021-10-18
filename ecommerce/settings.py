@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #Meu app
+    # Meu app
     'users.apps.UsersConfig',
+    "pages.apps.PagesConfig",
+    "products.apps.ProductsConfig",
 ]
 
 MIDDLEWARE = [
@@ -56,7 +58,7 @@ ROOT_URLCONF = 'ecommerce.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-         "DIRS": [BASE_DIR / "templates"],
+        "DIRS": [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -83,7 +85,7 @@ DATABASES = {
         'PASSWORD': os.environ.get('DB_PASS', '12345'),
         'HOST': 'localhost',
         'PORT': '5432',
-}
+    }
 }
 
 
@@ -128,6 +130,11 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # User Model
-# User Model
+
 
 AUTH_USER_MODEL = "users.User"
+
+# Media
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
