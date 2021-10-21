@@ -40,11 +40,14 @@ INSTALLED_APPS = [
     # apps de terceiros
     "debug_toolbar",
     "widget_tweaks",
+    "crispy_forms",
+    "localflavor",
     # Meu app
     'users.apps.UsersConfig',
     "pages.apps.PagesConfig",
     "products.apps.ProductsConfig",
     "cart.apps.CartConfig",
+    "orders.apps.OrdersConfig",
 ]
 
 MIDDLEWARE = [
@@ -148,3 +151,7 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 CART_SESSION_ID = "cart"
 CART_ITEM_MAX_QUANTITY = 20
+
+# Crispy
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
