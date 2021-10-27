@@ -1,6 +1,6 @@
 import pytest
 
-#from orders.tests.factories import ItemFactory, OrderFactory
+from orders.tests.factories import ItemFactory, OrderFactory
 from products.tests.factories import CategoryFactory, ProductFactory
 
 
@@ -18,7 +18,7 @@ def category():
 def product():
     return ProductFactory()
 
-"""
+
 @pytest.fixture
 def order():
     return OrderFactory()
@@ -28,7 +28,7 @@ def order():
 def item():
     return ItemFactory()
 
-"""
+
 @pytest.fixture
 def order_form_data():
     return {
