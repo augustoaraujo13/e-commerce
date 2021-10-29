@@ -1,5 +1,5 @@
 # e-commerce
-Aplicação web de um e-commerce feita com Python e framework Django com integração ao mercado pago, projeto feito através de vídeo aulas do canal Fabio Ruicci.
+Aplicação web de um e-commerce feito com Python, framework Django, HTML, CSS, JavaScript, Bootstrap, banco de dados PostgreSQL e ainda conta com uma integração ao mercado pago, projeto feito através de vídeo aulas do canal Fabio Ruicci.
 
 [Canal do Fabio Ruicci](https://www.youtube.com/c/FabioRuicciCursos) 🖥
 
@@ -47,7 +47,7 @@ Aplicação web de um e-commerce feita com Python e framework Django com integra
 
 ⚠️Os dados que apareceram aqui são falsos, para fins de amostragem!!⚠️
 
-⚠️Foram gerar a partir do site [fake name generator](https://pt.fakenamegenerator.com/gen-random-br-br.php)⚠️
+⚠️Foram geradosr a partir do site [fake name generator](https://pt.fakenamegenerator.com/gen-random-br-br.php)⚠️
 
 ![pg1](https://raw.githubusercontent.com/augustoaraujo13/imagens-e-arquivos-para-o-readme/main/e-commerce/Pagar%201.png)
 
